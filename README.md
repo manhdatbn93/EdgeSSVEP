@@ -81,7 +81,7 @@ EdgeSSVEP/
 ## Experimental Protocol
 Each subject completed 24 trials, with visual stimuli displayed in a 2×3 grid on a mobile device. Each grid position flickered at a fixed frequency:
 
-<div style="display: flex; align-items: center; gap: 50px;">
+<div style="display: flex; align-items: center; gap: 20px;">
   <table>
     <thead>
       <tr>
