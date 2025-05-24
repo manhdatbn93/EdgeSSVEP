@@ -10,10 +10,10 @@ This repository contains the dataset, C implementation, and Python verification 
 
 EdgeSSVEP is a project focused on developing a compact, ultra-low-power Brain-Computer Interface (BCI) system for Steady-State Visually Evoked Potential (SSVEP) applications. The repository includes:
 
-- **Datasets**: EEG data organized by subject (S01 to S10) for SSVEP analysis.
+- **Datasets**: EEG recordings organized by subject (S01 to S10) for SSVEP analysis.
 - **C Implementation**: Code for processing EEG data and performing SSVEP classification, optimized for embedded systems.
-- **Python Verification Tools**: Scripts for validating the results of the C implementation.
-- **Results**: Output logs from the SSVEP classification process.
+- **Python Verification Tools**: Scripts for verifying offline classification accuracy and for extracting per-trial raw EEG data to serve as input for the C implementation.
+- **Results**: Output logs and accuracy reports generated during the SSVEP classification process.
 
 This work aims to enable real-time SSVEP-based BCI applications on resource-constrained devices such as MCU
 
