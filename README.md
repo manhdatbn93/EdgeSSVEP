@@ -39,7 +39,7 @@ EdgeSSVEP/
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/EdgeSSVEP.git
+   git clone https://github.com/manhdatbn93/EdgeSSVEP.git
    ```
 2. Set up your C development environment:
    - Install Visual Studio 2022 Community with the "Desktop development with C++" workload.
