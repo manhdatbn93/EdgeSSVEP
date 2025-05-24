@@ -40,8 +40,6 @@ static double filter_out[MAX_VALUES];                ///< Final output buffer
  * - Uses edge correction (2*x[edge] - x[n]) to maintain continuity
  * - Ensures smooth transitions at boundaries to reduce filtering artifacts
  *
- * @warning Behavior is undefined if padlen > length - 1
- * @warning The output array ext must have capacity for length + 2*padlen samples
  */
 static void pad_signal(double* x, int length, int padlen, double* ext)
 {

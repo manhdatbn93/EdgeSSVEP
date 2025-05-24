@@ -210,15 +210,6 @@ static void matrix_transpose(float* A, int rows, int cols, float* A_T)
  * @param inv Output inverse matrix (n x n)
  * @return int 0 if successful, -1 if matrix is singular
  *
- * @note Features:
- * - Partial pivoting for numerical stability
- * - In-place computation using augmented matrix
- * - Explicit handling of singular matrices
- * - Avoids explicit division by zero
- * - Works for any square matrix size (n x n)
- *
- * @warning For large matrices (n > 10), consider using more specialized
- *          numerical libraries (e.g., LAPACK)
  */
 int matrix_inverse(float* A, int n, float* inv)
 {
