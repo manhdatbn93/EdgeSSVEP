@@ -3,7 +3,7 @@
 This repository contains the dataset, C implementation, and Python verification tools for the paper:
 
 > **EdgeSSVEP: A Compact Embedded SSVEP BCI for Ultra-Low-Power Real-Time Applications**  
-> Manh-Dat Nguyen, Xuan-The Tran, Thomas Do, Chin-Teng Lin  
+> Manh-Dat Nguyen, Nguyen Thanh Trung Le, Xuan-The Tran, Thomas Do, Chin-Teng Lin  
 > [TBD], 2025
 
 ## Overview
@@ -122,7 +122,7 @@ If you use this code or dataset in your research, please cite the following pape
 ```bibtex
 @article{nguyen2025edgessvep,
   title={EdgeSSVEP: A Compact Embedded SSVEP BCI for Ultra-Low-Power Real-Time Applications},
-  author={Nguyen, Manh-Dat and Tran, Xuan-The and Do, Thomas and Lin, Chin-Teng},
+  author={Nguyen, Manh-Dat and Le, Nguyen Thanh Trung and Tran, Xuan-The and Do, Thomas and Lin, Chin-Teng},
   journal={[TBD]},
   year={2025}
 }
