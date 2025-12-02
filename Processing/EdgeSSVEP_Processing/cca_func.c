@@ -301,7 +301,30 @@ void print_matrix(float* A, int n, int times)
     }
 }
 
+/**
+ * @brief Save filtered data array to text file
+ * @param filename Output file path
+ * @param data Array of filtered data
+ * @param num_samples Number of samples to save
+ * @return 0 on success, -1 on failure
+ */
+int save_filtered_data_to_file(const char* filename, double* data, int num_samples)
+{
+    FILE* file = fopen(filename, "w");
+    if (file == NULL)
+    {
+        printf("Error: Unable to open file %s for writing\n", filename);
+        return -1;
+    }
 
+    for (int i = 0; i < num_samples; i++)
+    {
+        fprintf(file, "%.6f\n", data[i]);
+    }
+
+    fclose(file);
+    return 0;
+}
 /**
  * @brief CCA-based SSVEP frequency classification
  * @param eeg_data Input EEG data [channels][samples]
@@ -326,6 +349,7 @@ int cca_ssvep_classification(float eeg_data[PATTERN_NUM_CHANNELS][PATTERN_NUM_SA
         }
 
         apply_filtfilt(data_filtered, num_samples);
+		//save_filtered_data_to_file("filtered_data.txt", data_filtered, num_samples);
 
         if (num_samples > CCA_SAMPLES)
         {
