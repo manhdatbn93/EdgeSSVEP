@@ -1,14 +1,14 @@
-# EdgeSSVEP: A Compact Embedded SSVEP BCI for Ultra-Low-Power Real-Time Applications
+# EdgeSSVEP: A Fully Embedded SSVEP BCI Platform for Low-Power Real-Time Applications
 
 This repository contains the dataset, C implementation, and Python verification tools for the paper:
 
-> **EdgeSSVEP: A Compact Embedded SSVEP BCI for Ultra-Low-Power Real-Time Applications**  
-> Manh-Dat Nguyen, Nguyen Thanh Trung Le, Xuan-The Tran, Thomas Do, Chin-Teng Lin  
+> **EdgeSSVEP: A Fully Embedded SSVEP BCI Platform for Low-Power Real-Time Applications**  
+> Manh-Dat Nguyen, Thomas Do, Nguyen Thanh Trung Le, Xuan-The Tran, Fred Chang, Chin-Teng Lin  
 > [TBD], 2025
 
 ## Overview
 
-EdgeSSVEP is a project focused on developing a compact, ultra-low-power Brain-Computer Interface (BCI) system for Steady-State Visually Evoked Potential (SSVEP) applications. The repository includes:
+EdgeSSVEP is a project focused on developing a compact, low-power Brain-Computer Interface (BCI) system for Steady-State Visually Evoked Potential (SSVEP) applications. The repository includes:
 
 - **Datasets**: EEG recordings organized by subject (S01 to S10) for SSVEP analysis.
 - **C Implementation**: Code for processing EEG data and performing SSVEP classification, optimized for embedded systems.
@@ -121,8 +121,8 @@ If you use this code or dataset in your research, please cite the following pape
 
 ```bibtex
 @article{nguyen2025edgessvep,
-  title={EdgeSSVEP: A Compact Embedded SSVEP BCI for Ultra-Low-Power Real-Time Applications},
-  author={Nguyen, Manh-Dat and Le, Nguyen Thanh Trung and Tran, Xuan-The and Do, Thomas and Lin, Chin-Teng},
+  title={EdgeSSVEP: A Fully Embedded SSVEP BCI Platform for Low-Power Real-Time Applications},
+  author={Nguyen, Manh-Dat and Do, Thomas and Le, Nguyen Thanh Trung and Tran, Xuan-The and Chang, Fred and Lin, Chin-Teng},
   journal={[TBD]},
   year={2025}
 }
