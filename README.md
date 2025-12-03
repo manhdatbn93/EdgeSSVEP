@@ -128,6 +128,13 @@ If you use this code or dataset in your research, please cite the following pape
 }
 ```
 
+## Reproducibility (Online)
+
+For users who prefer an online execution environment, a CodeOcean capsule containing the complete C implementation and dataset will be made available.
+
+**CodeOcean link:** Coming soon.
+
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
