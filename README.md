@@ -132,7 +132,11 @@ If you use this code or dataset in your research, please cite the following pape
 
 For users who prefer an online execution environment, a CodeOcean capsule containing the complete C implementation and dataset will be made available.
 
-**CodeOcean link:** Coming soon.
+**CodeOcean link:** https://doi.org/10.24433/CO.3951160.v1
+
+```bibtex
+Manh Dat Nguyen (2025) EdgeSSVEP: A Fully Embedded SSVEP BCI Platform for Low-Power Real-Time Applications [Source Code]. https://doi.org/10.24433/CO.3951160.v1
+```
 
 
 ## License
